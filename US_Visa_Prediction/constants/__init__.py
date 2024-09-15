@@ -57,3 +57,15 @@ MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
 MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
+
+
+
+"""
+MODEL EVALUATION related constant 
+"""
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.07
+local_model_path: str = r"C:\ML_Project_Using_MLOPS\artifact\09_15_2024_08_09_14\model_trainer\trained_model\model.pkl"
+
+
+APP_HOST = "0.0.0.0"
+APP_PORT = 8080
